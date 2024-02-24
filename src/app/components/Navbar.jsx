@@ -32,8 +32,8 @@ const Navbar = () => {
           className="flex items-center text-2xl md:text-5xl text-white font-semibold"
         >
           <div className="flex items-center">
-            <span className="mr-2"></span> {/* Text */}
-            <Image src="/Logo.png" alt="" width={50} height={50} /> {/* Logo */}
+            <span className="mr-2"></span>
+            <Image src="/Logo.png" alt="" width={50} height={50} />
           </div>
         </Link>
         <div className="mobile-menu block md:hidden">
