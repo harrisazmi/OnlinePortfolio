@@ -3,13 +3,14 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
 
 const projectsData = [
   {
     id: 1,
     title: "To Do List App",
     description: "Real Time App Designed to Manage Task For Housechores",
-    image: "/images/projects/1.png",
+    image: "/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -18,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Expense and Receipt Tracker",
     description: "Managing Expenses and Receipt Especially For LHDN",
-    image: "/images/projects/2.png",
+    image: "/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -28,7 +29,7 @@ const projectsData = [
     title: "Web Scraper App - NumazuScraper ",
     description:
       "Scraping Data from Japan Meteorological Agency for Warning on High Tide",
-    image: "/images/projects/3.png",
+    image: "/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -37,7 +38,7 @@ const projectsData = [
     id: 4,
     title: "Groceries App - TheGroceriesUNeed",
     description: "Groceries for The People ",
-    image: "/images/projects/4.png",
+    image: "/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
@@ -46,7 +47,7 @@ const projectsData = [
     id: 5,
     title: "Login and Registration Template",
     description: "Authentication and CRUD Operations using next.js",
-    image: "/images/projects/5.png",
+    image: "/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -56,7 +57,7 @@ const projectsData = [
     title: "Food Ordering",
     description:
       "Crafted to optimize food ordering workflows and enhancing operational efficiency for restaurants.",
-    image: "/images/projects/6.png",
+    image: "/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -66,7 +67,7 @@ const projectsData = [
     title: "Online Portfolio",
     description:
       "Crafted to optimize food ordering workflows and enhancing operational efficiency for restaurants.",
-    image: "/images/projects/7.png",
+    image: "/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -75,7 +76,7 @@ const projectsData = [
     id: 8,
     title: "Server Engineering",
     description: "On Premise Server Building and Provisioning",
-    image: "/images/projects/8.png",
+    image: "/projects/8.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -85,7 +86,7 @@ const projectsData = [
     title: "Server Engineering",
     description:
       "On Premise Backend App Server, Database Server and Client Server Provisioning",
-    image: "/images/projects/9.png",
+    image: "/projects/9.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -95,7 +96,7 @@ const projectsData = [
     title: "System Administrator",
     description:
       "Manage the application servers, database servers, and client servers",
-    image: "/images/projects/10.png",
+    image: "/projects/10.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -105,7 +106,7 @@ const projectsData = [
     title: "Dev Ops - Load Balancing",
     description:
       "Load Balancing with Nginx or Kemp or Cloudflare: A Comprehensive Guide",
-    image: "/images/projects/11.png",
+    image: "/projects/11.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -114,7 +115,7 @@ const projectsData = [
     id: 12,
     title: "Network Infra and Security",
     description: "Port Forwarding vs Reverse Proxy vs Tunneling",
-    image: "/images/projects/12.png",
+    image: "/projects/12.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -123,7 +124,7 @@ const projectsData = [
     id: 13,
     title: "Dev Ops",
     description: "Proxy Management and DNS",
-    image: "/images/projects/13.png",
+    image: "/projects/13.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -133,7 +134,7 @@ const projectsData = [
     title: "Dev OPs - Terraform",
     description:
       "Automate deployment, scaling, and management of applications and services.",
-    image: "/images/projects/14.png",
+    image: "/projects/14.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -143,7 +144,7 @@ const projectsData = [
     title: "Dev Ops - Prometheus and Grafana",
     description:
       "Prometheus is Open-source tool for real-time monitoring and data collection, Grafana for Visualization and analytics platform, integrates seamlessly with Prometheus for data-driven insights.",
-    image: "/images/projects/15.png",
+    image: "/projects/15.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
