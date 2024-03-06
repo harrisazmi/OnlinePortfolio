@@ -66,7 +66,7 @@ const projectsData = [
     id: 7,
     title: "Online Portfolio",
     description:
-      "Crafted to optimize food ordering workflows and enhancing operational efficiency for restaurants.",
+      "Crafted a personal portfolio website to showcase skills and achievements.",
     image: "/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harrisazmi/OnlinePortfolio",
