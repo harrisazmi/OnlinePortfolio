@@ -28,15 +28,15 @@ const AvatarSection = () => {
               sequence={[
                 "Harris",
                 1000,
-                "A Fullstack Web Developer",
+                "A Fullstack Web Developer!",
                 1000,
-                "A MERN Stack Developer",
+                "A MERN Stack Developer!",
                 1000,
-                "A Dev Ops",
+                "A Dev Ops!",
                 1000,
                 "A Home Lab Brewer!",
                 1000,
-                "A Chemical Engineer",
+                "A Chemical Engineer!",
                 1000,
               ]}
               wrapper="span"
