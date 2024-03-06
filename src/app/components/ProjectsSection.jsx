@@ -13,7 +13,7 @@ const projectsData = [
     image: "/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harrisazmi/Project1ToDoListFE",
-    previewUrl: "https://project3frontendcf.harrisviewcodes.uk/",
+    previewUrl: "https://project1frontendcf.harrisviewcodes.uk/",
   },
   {
     id: 2,
@@ -69,8 +69,8 @@ const projectsData = [
       "Crafted to optimize food ordering workflows and enhancing operational efficiency for restaurants.",
     image: "/projects/7.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/harrisazmi/OnlinePortfolio",
+    previewUrl: "https://portfoliocf.harrisviewcodes.uk/",
   },
   {
     id: 8,
