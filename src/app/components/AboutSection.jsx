@@ -10,11 +10,39 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>Next.js</li>
-        <li>React</li>
-        <li>OracleDB/PLSQL</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Pascal</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>
+          Cloud Practitioner (Entry Level) Runcloud Professional Certification
+        </li>
+        <li>Data Engineering by Yayasan Peneraju</li>
+        <li>MERN Stack Bootcamp by KelasProgramming</li>
+        <li>Google Cloud Big Data and Machine Learning Fundamentals</li>
+        <li>Crash Course on Python by Google</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>
+          Cloud Practitioner (Entry Level) Runcloud Professional Certification
+        </li>
+        <li>Data Engineering by Yayasan Peneraju</li>
+        <li>MERN Stack Bootcamp by KelasProgramming</li>
+        <li>Google Cloud Big Data and Machine Learning Fundamentals</li>
+        <li>Crash Course on Python by Google</li>
       </ul>
     ),
   },
@@ -71,7 +99,7 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Front End Skills{" "}
+              Language Skills{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
