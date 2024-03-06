@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import AvatarSection from "./components/AvatarSection";
+import BottomSection from "./components/BottomSection";
 import Navbar from "./components/Navbar";
 import ProjectsSection from "./components/ProjectsSection";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <AvatarSection />
         <AboutSection />
         <ProjectsSection></ProjectsSection>
+        <BottomSection></BottomSection>
       </div>
     </main>
   );

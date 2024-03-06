@@ -12,8 +12,8 @@ const projectsData = [
     description: "Real Time App Designed to Manage Task For Housechores",
     image: "/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/harrisazmi/Project1ToDoListFE",
+    previewUrl: "https://project3frontendcf.harrisviewcodes.uk/",
   },
   {
     id: 2,
@@ -31,8 +31,8 @@ const projectsData = [
       "Scraping Data from Japan Meteorological Agency for Warning on High Tide",
     image: "/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/harrisazmi/Project3NumazuScraper",
+    previewUrl: "https://project3frontendcf.harrisviewcodes.uk/",
   },
   {
     id: 4,
@@ -160,6 +160,10 @@ const ProjectsSection = () => {
     setTag(newTag);
   };
 
+  const paragraphStyle = {
+    textAlign: "justify",
+  };
+
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   );
@@ -191,7 +195,11 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul
+        ref={ref}
+        style={paragraphStyle}
+        className="grid md:grid-cols-3 gap-8 md:gap-12"
+      >
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

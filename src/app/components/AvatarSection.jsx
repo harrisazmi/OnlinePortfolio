@@ -6,6 +6,10 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const AvatarSection = () => {
+  const paragraphStyle = {
+    textAlign: "justify",
+  };
+
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -28,6 +32,10 @@ const AvatarSection = () => {
                 1000,
                 "A MERN Stack Developer",
                 1000,
+                "A Dev Ops",
+                1000,
+                "A Home Lab Brewer!",
+                1000,
                 "A Chemical Engineer",
                 1000,
               ]}
@@ -36,7 +44,10 @@ const AvatarSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p
+            style={paragraphStyle}
+            className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"
+          >
             Enthusiastic and results-driven Junior Full Stack Developer,
             seamlessly blending a rich background in Chemical Engineering with
             the mastery of Production Mangement. Armed with a robust educational
