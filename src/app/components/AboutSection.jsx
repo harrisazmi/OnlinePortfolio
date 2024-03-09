@@ -5,8 +5,8 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Language_Skills",
+    id: "lang_skills",
     content: (
       <ul className="list-disc pl-2">
         <li>JavaScript</li>
@@ -17,13 +17,11 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Web_Skills",
+    id: "web_skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>
-          Cloud Practitioner (Entry Level) Runcloud Professional Certification
-        </li>
+        <li>HTML 5</li>
         <li>Data Engineering by Yayasan Peneraju</li>
         <li>MERN Stack Bootcamp by KelasProgramming</li>
         <li>Google Cloud Big Data and Machine Learning Fundamentals</li>

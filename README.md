@@ -11,7 +11,7 @@ My portfolio is an ongoing project, and I'm actively working on adding more cont
 ## Portfolio Overview
 
 - **Portfolio URL:** [https://portfoliocf.harrisviewcodes.uk/](https://portfoliocf.harrisviewcodes.uk/)
-- **LinkedIn:** [linkedin.com/in/harris-azmi-roswadi](www.linkedin.com/in/harris-azmi-roswadi)
+- **LinkedIn:** [linkedin.com/in/harris-azmi-roswadi](https://www.linkedin.com/in/harris-azmi-roswadi)
 
 ## Projects
 
