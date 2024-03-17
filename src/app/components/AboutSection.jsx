@@ -5,15 +5,17 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Language Skills",
-    id: "skills",
+    title: "Certifications",
+    id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>C++</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>Pascal</li>
+        <li>
+          Cloud Practitioner (Entry Level) Runcloud Professional Certification
+        </li>
+        <li>Data Engineering by Yayasan Peneraju</li>
+        <li>MERN Stack Bootcamp by KelasProgramming</li>
+        <li>Google Cloud Big Data and Machine Learning Fundamentals</li>
+        <li>Crash Course on Python by Google</li>
       </ul>
     ),
   },
@@ -29,21 +31,6 @@ const TAB_DATA = [
           <br />
           Petronas University Of Technology
         </li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>
-          Cloud Practitioner (Entry Level) Runcloud Professional Certification
-        </li>
-        <li>Data Engineering by Yayasan Peneraju</li>
-        <li>MERN Stack Bootcamp by KelasProgramming</li>
-        <li>Google Cloud Big Data and Machine Learning Fundamentals</li>
-        <li>Crash Course on Python by Google</li>
       </ul>
     ),
   },
