@@ -37,7 +37,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("certifications");
 
   const handleTabChange = (id) => {
     setTab(id);
