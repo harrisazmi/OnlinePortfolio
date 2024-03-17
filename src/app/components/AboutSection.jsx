@@ -12,6 +12,7 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>C++</li>
         <li>Python</li>
+        <li>Java</li>
         <li>Pascal</li>
       </ul>
     ),
