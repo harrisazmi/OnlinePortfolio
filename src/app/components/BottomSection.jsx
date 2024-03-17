@@ -14,16 +14,17 @@ const BottomSection = () => {
     >
       <div className="flex flex-col justify-center px-8 md:px-12 lg:px-16">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Let's Connect !
+          Let&apos;s Connect
         </h2>
         <p
           style={paragraphStyle}
           className="text-[#FFFFFF] text-lg mb-8 max-w-lg"
         >
-          I'm currently exploring new opportunities and welcome any inquiries or
-          messages you may have. Whether you have questions, ideas to discuss,
-          or just want to say hello, feel free to reach out. I'm committed to
-          responding promptly and look forward to connecting with you!
+          I&apos;m currently exploring new opportunities and welcome any
+          inquiries or messages you may have. Whether you have questions, ideas
+          to discuss, or just want to say hello, feel free to reach out.
+          I&apos;m committed to responding promptly and look forward to
+          connecting with you!
         </p>
         <div className="flex gap-4">
           <Link href="https://github.com/harrisazmi">
