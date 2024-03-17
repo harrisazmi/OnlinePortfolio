@@ -38,6 +38,7 @@ const AboutSkills = () => {
     { name: "Languages", count: 3, dir: "languages" },
     { name: "Frontend", count: 6, dir: "frontend" },
     { name: "Backend", count: 5, dir: "backend" },
+    { name: "Database", count: 6, dir: "database" },
     { name: "Dev Ops", count: 12, dir: "devops" },
     { name: "Others", count: 5, dir: "others" },
   ];
