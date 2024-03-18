@@ -50,11 +50,11 @@ const AvatarSection = () => {
           >
             Enthusiastic and results-driven Junior Full Stack Developer,
             seamlessly blending a rich background in Chemical Engineering with
-            the mastery of Production Mangement. Armed with a robust educational
-            foundation in full-stack development, I bring a unique perspective
-            and proven organizational prowess to the coding realm. My track
-            record in managing complex production processes underscores my
-            commitment to excellence and efficiency. Now actively seeking a
+            the mastery of Production Management. Armed with a robust
+            educational foundation in full-stack development, I bring a unique
+            perspective and proven organizational prowess to the coding realm.
+            My track record in managing complex production processes underscores
+            my commitment to excellence and efficiency. Now actively seeking a
             dynamic role to apply my technical proficiency and contribute to
             cutting-edge development projects. Let&apos;s embark on a journey of
             innovation together.
